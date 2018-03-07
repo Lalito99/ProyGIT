@@ -1,0 +1,63 @@
+.contenedor{
+  float: center;
+  width: 80%;
+  height: 500px;
+  margin: 20px auto;
+  padding: 90px;
+  border: 2px solid red;
+background-position: center;
+}
+.base{
+  -moz-border-radious:60px;
+  -webkit-border-radius: 20px / 10;
+  border-radius: 20px/10px;
+  -moz-box-shadow: rgb(150, 150,150) 5px 5px;
+  -webkit-box-shadow: rgb(150, 150, 150) 5px 5px;
+  box-shadow: rgb(150, 150, 150) 5px 5px;
+}
+#caja1{
+  float: left;
+  width: 25%;
+  height: 300px;
+  margin: 20px ;
+  border: 2px solid blue;
+  padding: 10px;
+  position: relative;
+  background-color: rgba(34,0,0,0.5)
+}
+#caja2{
+  float: left;
+  width: 25%;
+  height: 300px;
+  margin: 20px ;
+  border: 2px solid blue;
+  padding: 10px;
+  position: relative;
+background-color: rgba(239,0,0,0.1)
+    }
+#caja3{
+  float: left;
+  width: 25%;
+  height: 300px;
+  margin: 20px ;
+  border: 2px solid blue;
+  padding: 10px;
+  background-color: gold;
+
+}
+.imagen{
+position: absolute;
+bottom: 0px;
+left: 0px;
+}
+
+.imagen2{
+position: absolute;
+top: 0px;
+right: 0px;
+}
+
+.imagen3{
+background-position: 50% 50%;
+position: 50% 50%;
+}

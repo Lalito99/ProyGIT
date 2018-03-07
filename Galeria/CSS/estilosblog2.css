@@ -1,0 +1,34 @@
+
+h1{
+  font: bold 20px verdana, sans-serif;
+}
+body{
+  text-align: center;
+}
+#contenedor{
+  border: 1px solid #9999;
+  padding: 20px;
+  margin: 15px auto;
+  width: 80%;
+  height: 550px;
+}
+#contenedor div{
+  border: 1px solid #9999;
+  padding: 20px;
+  margin: 20px;
+  float: left;
+  width: 25%;
+  height: 300px;
+  background-image: url(../img/insta.png);
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+#caja1{
+  background-position: bottom left;
+}
+#caja2{
+  background-position: top right;
+}
+#caja3{
+  background-position:center center;
+}

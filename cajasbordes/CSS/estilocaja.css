@@ -1,0 +1,51 @@
+.contenedor{
+
+  float: center;
+  width: 80%;
+  height: 500px;
+  margin: 20px auto;
+  padding: 90px;
+  border: 2px solid red;
+}
+#caja1{
+  float: left;
+  width: 25%;
+  height: 300px;
+  margin: 20px ;
+  border: 2px solid blue;
+  padding: 10px;
+  position: relative;
+}
+#caja2{
+  float: left;
+  width: 25%;
+  height: 300px;
+  margin: 20px ;
+  border: 2px solid blue;
+  padding: 10px;
+  position: relative;
+    }
+#caja3{
+  float: left;
+  width: 25%;
+  height: 300px;
+  margin: 20px ;
+  border: 2px solid blue;
+  padding: 10px;
+  position: relative;
+}
+.imagen{
+position: absolute;
+bottom: 0px;
+left: 0px;
+}
+
+.imagen2{
+position: absolute;
+top: 0px;
+right: 0px;
+}
+
+.imagen3{
+position: absolute;
+}

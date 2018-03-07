@@ -1,0 +1,31 @@
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: red;
+}
+li{
+float: left;
+}
+li a{
+display: block;
+color: white;
+text-align: center;
+padding: 20px 20px;
+text-decoration: none;
+}
+li a:hover{
+background-color: yellow;
+color: black;
+}
+li a:active{
+font-style: italic;
+background-color: blue;
+font-size: 100%
+
+}
+li:last-child{
+float: right;
+color: white
+}
